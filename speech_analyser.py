@@ -46,6 +46,7 @@ def text_analyser(file):
     # local file system path
     speech_path = speeches_dir + '/' + file
 
+# edit to generate URL automatically from selected files.
     # URL of the speech with title
     URL = '<li><a href="http://server.csmcis.net/~abrenn10/cgi-bin/cis117/speeches/' + file +\
           '">' + file + '</a></li>'
